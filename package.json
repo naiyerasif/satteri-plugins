@@ -1,0 +1,23 @@
+{
+	"name": "@naiyer/satteri-plugins",
+	"description": "Sätteri plugins to extend your markdown",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "node --experimental-test-coverage --test-coverage-branches=80 --test-coverage-functions=80 --test-coverage-lines=80 --test",
+		"test:update": "node --test --test-update-snapshots"
+	},
+	"dependencies": {
+		"satteri": "^0.10.5"
+	},
+	"imports": {
+		"#plugins/*": "./src/*"
+	},
+	"license": "MIT",
+	"author": "Naiyer Asif (https://naiyerasif.com)",
+	"repository": "https://github.com/naiyerasif/satteri-plugins.git",
+	"bugs": "https://github.com/naiyerasif/satteri-plugins/issues",
+	"homepage": "https://github.com/naiyerasif/satteri-plugins#readme",
+	"packageManager": "pnpm@12.4.1"
+}
