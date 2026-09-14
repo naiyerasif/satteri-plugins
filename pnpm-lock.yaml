@@ -170,6 +170,9 @@ importers:
         specifier: ^0.10.5
         version: 0.10.5
     devDependencies:
+      dedent:
+        specifier: ^1.7.2
+        version: 1.7.2
       github-slugger:
         specifier: ^2.0.0
         version: 2.0.0
@@ -259,6 +262,14 @@ packages:
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
+  dedent@1.7.2:
+    resolution: {integrity: sha512-WzMx3mW98SN+zn3hgemf4OzdmyNhhhKz5Ay0pUfQiMQ3e1g+xmTJWp/pKdwKVXhdSkAEGIIzqeuWrL3mV/AXbA==}
+    peerDependencies:
+      babel-plugin-macros: ^3.1.0
+    peerDependenciesMeta:
+      babel-plugin-macros:
+        optional: true
+
   github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
 
@@ -344,6 +355,8 @@ snapshots:
       '@types/unist': 3.0.3
 
   '@types/unist@3.0.3': {}
+
+  dedent@1.7.2: {}
 
   github-slugger@2.0.0: {}
 

@@ -12,6 +12,7 @@
 		"satteri": "^0.10.5"
 	},
 	"devDependencies": {
+		"dedent": "^1.7.2",
 		"github-slugger": "^2.0.0"
 	},
 	"imports": {

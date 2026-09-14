@@ -1,0 +1,31 @@
+exports[`satteri-figure-directive > should drop a figure with a single child (no caption) untouched 1`] = `
+
+`;
+
+exports[`satteri-figure-directive > should drop a figure with no caption untouched 1`] = `
+
+`;
+
+exports[`satteri-figure-directive > should drop unregistered container directives 1`] = `
+
+`;
+
+exports[`satteri-figure-directive > should forward attributes on figure and caption to hProperties 1`] = `
+<figure id="fig-1" class="wide"><p><img src="./image.png" alt="An insightful image"></p><figcaption class="small">This is a caption with attributes.</figcaption></figure>
+`;
+
+exports[`satteri-figure-directive > should render figure with caption at the end 1`] = `
+<figure><p><img src="./image.png" alt="An insightful image"></p><figcaption>This is a caption positioned below the image.</figcaption></figure>
+`;
+
+exports[`satteri-figure-directive > should render figure with caption at the start 1`] = `
+<figure><figcaption>This is a caption positioned above the image.</figcaption><p><img src="./image.png" alt="An insightful image"></p></figure>
+`;
+
+exports[`satteri-figure-directive > should render multiple paragraphs inside figcaption 1`] = `
+<figure><p><img src="./image.png" alt="An insightful image"></p><figcaption><p>First paragraph of a very long caption.</p><p>Second paragraph of the same caption.</p></figcaption></figure>
+`;
+
+exports[`satteri-figure-directive > should render nested figures with matching caption position 1`] = `
+<figure><figcaption>This is a caption for the outer figure.</figcaption><figure><figcaption>This is a caption for the inner figure.</figcaption><p><img src="./image.png" alt="An insightful image"></p></figure></figure>
+`;
