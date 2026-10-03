@@ -1,0 +1,83 @@
+exports[`satteri-callout-directives > aliased callout with alias configuration 1`] = `
+<aside class="callout callout-deter"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 12s-5.6 4.6-3.6 8c1.6 2.6 5.7 2.7 7.2 0 2-3.7-3.6-8-3.6-8Z"/><path d="M13.004 2 8.5 9 6.001 6s-4.268 7.206-1.629 11.8c3.016 5.5 11.964 5.7 15.08 0C23.876 10 13.004 2 13.004 2Z"/></svg></div><div class="callout-title">Danger</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > assert callout without any option 1`] = `
+<aside class="callout callout-assert"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="19" cy="5" r="3"/><path d="M20 11.929V15c0 1.656-1.344 3-3 3h-3l-6 4v-4H5c-1.656 0-3-1.344-3-3V7c0-1.656 1.344-3 3-3h7.071"/></svg></div><div class="callout-title">Info</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > callout as details element 1`] = `
+<details class="callout callout-note"><summary><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 8h.01M12 12v4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Note</div></div></summary><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></details>
+`;
+
+exports[`satteri-callout-directives > callout as open details element 1`] = `
+<details open="" class="callout callout-note"><summary><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 8h.01M12 12v4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Note</div></div></summary><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></details>
+`;
+
+exports[`satteri-callout-directives > callout with custom attributes 1`] = `
+<aside data-callout="fancy" id="intrigue" class="fancy blob" class="callout callout-note fancy blob"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 8h.01M12 12v4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Note</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > callout with custom title 1`] = `
+<aside class="callout callout-warn"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4m0 4h.01"/></svg></div><div class="callout-title">Be warned!</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > callout with global custom element type 1`] = `
+<section class="callout callout-note"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 8h.01M12 12v4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Note</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></section>
+`;
+
+exports[`satteri-callout-directives > callout with global custom element type and specific custom element type 1`] = `
+<div class="callout callout-assert"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="19" cy="5" r="3"/><path d="M20 11.929V15c0 1.656-1.344 3-3 3h-3l-6 4v-4H5c-1.656 0-3-1.344-3-3V7c0-1.656 1.344-3 3-3h7.071"/></svg></div><div class="callout-title">Info</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></div>
+`;
+
+exports[`satteri-callout-directives > callout with markdown title 1`] = `
+<aside class="callout callout-warn"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4m0 4h.01"/></svg></div><div class="callout-title"><strong>Hold</strong> on <em>there</em>!</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > callout without hint 1`] = `
+<aside class="callout callout-note"><div class="callout-indicator"><div class="callout-title">Note</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > callouts with custom element type 1`] = `
+<blockquote class="callout callout-commend"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m8 12 2.7 2.7L16 9.3"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Success</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></blockquote><div class="callout callout-assert"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="19" cy="5" r="3"/><path d="M20 11.929V15c0 1.656-1.344 3-3 3h-3l-6 4v-4H5c-1.656 0-3-1.344-3-3V7c0-1.656 1.344-3 3-3h7.071"/></svg></div><div class="callout-title">Info</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></div><aside class="callout callout-note"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 8h.01M12 12v4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Note</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > commend callout without any option 1`] = `
+<aside class="callout callout-commend"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m8 12 2.7 2.7L16 9.3"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Success</div></div><div class="callout-content"><ul><li>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</li></ul></div></aside>
+`;
+
+exports[`satteri-callout-directives > custom shoutout callout 1`] = `
+<aside class="callout callout-shoutout"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="callout-hint-shoutout" aria-hidden="true"><path d="M4.7 6.5h.01m8.49-2.8h.01m4.29 15.6h.01m2.79-8.5h.01m-6.41-.7 2.2-.7V6.5h2.8V3.7L21 3m-6.253 10.767c1.676-.175 2.93-.38 3.739-.064 1.234.483 1.497 1.529 1.409 3.008m-9.723-7.519c.175-1.676.38-2.93.064-3.739-.483-1.234-1.529-1.497-3.008-1.409M6.5 10.4l7.1 7.1L3 21z"/></svg></div><div class="callout-title">Well done!</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > deter callout without any option 1`] = `
+<aside class="callout callout-deter"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 12s-5.6 4.6-3.6 8c1.6 2.6 5.7 2.7 7.2 0 2-3.7-3.6-8-3.6-8Z"/><path d="M13.004 2 8.5 9 6.001 6s-4.268 7.206-1.629 11.8c3.016 5.5 11.964 5.7 15.08 0C23.876 10 13.004 2 13.004 2Z"/></svg></div><div class="callout-title">Danger</div></div><div class="callout-content"><pre><code>Some **content** with _Markdown_ \`syntax\`.</code></pre></div></aside>
+`;
+
+exports[`satteri-callout-directives > matching callout with custom element type 1`] = `
+<div class="callout callout-assert"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="19" cy="5" r="3"/><path d="M20 11.929V15c0 1.656-1.344 3-3 3h-3l-6 4v-4H5c-1.656 0-3-1.344-3-3V7c0-1.656 1.344-3 3-3h7.071"/></svg></div><div class="callout-title">Info</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></div>
+`;
+
+exports[`satteri-callout-directives > matching callout with overriden default 1`] = `
+<aside class="callout callout-commend"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4 12 14.01l-3-3"/></svg></div><div class="callout-title">Tip</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > note callout without any option 1`] = `
+<aside class="callout callout-note"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 8h.01M12 12v4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Note</div></div><div class="callout-content"><blockquote><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></blockquote></div></aside>
+`;
+
+exports[`satteri-callout-directives > other callout with alias configuration 1`] = `
+<aside class="callout callout-assert"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="19" cy="5" r="3"/><path d="M20 11.929V15c0 1.656-1.344 3-3 3h-3l-6 4v-4H5c-1.656 0-3-1.344-3-3V7c0-1.656 1.344-3 3-3h7.071"/></svg></div><div class="callout-title">Info</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > unmatching callout with custom element type configuration 1`] = `
+<aside class="callout callout-note"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 8h.01M12 12v4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="callout-title">Note</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > unmatching callout with overriden default 1`] = `
+<aside class="callout callout-deter"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M12 12s-5.6 4.6-3.6 8c1.6 2.6 5.7 2.7 7.2 0 2-3.7-3.6-8-3.6-8Z"/><path d="M13.004 2 8.5 9 6.001 6s-4.268 7.206-1.629 11.8c3.016 5.5 11.964 5.7 15.08 0C23.876 10 13.004 2 13.004 2Z"/></svg></div><div class="callout-title">Danger</div></div><div class="callout-content"><p>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</p></div></aside>
+`;
+
+exports[`satteri-callout-directives > warn callout without any option 1`] = `
+<aside class="callout callout-warn"><div class="callout-indicator"><div class="callout-hint"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4m0 4h.01"/></svg></div><div class="callout-title">Warning</div></div><div class="callout-content"><ol><li>Some <strong>content</strong> with <em>Markdown</em> <code>syntax</code>.</li></ol></div></aside>
+`;
