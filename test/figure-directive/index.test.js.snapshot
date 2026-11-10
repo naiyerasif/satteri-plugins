@@ -11,7 +11,7 @@ exports[`satteri-figure-directive > should drop unregistered container directive
 `;
 
 exports[`satteri-figure-directive > should forward attributes on figure and caption to hProperties 1`] = `
-<figure id="fig-1" class="wide"><p><img src="./image.png" alt="An insightful image"></p><figcaption class="small">This is a caption with attributes.</figcaption></figure>
+<figure class="wide" id="fig-1"><p><img src="./image.png" alt="An insightful image"></p><figcaption class="small">This is a caption with attributes.</figcaption></figure>
 `;
 
 exports[`satteri-figure-directive > should render figure with caption at the end 1`] = `
