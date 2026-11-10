@@ -141,7 +141,7 @@ export default function satteriCalloutDirectives(options = {}) {
 
 			const calloutType = aliases[node.name];
 			const callout = callouts[calloutType];
-			const { title, showHint = "true", is, ...attributes } = node.attributes;
+			const { title, showHint = "true", is, class: clazz, ...attributes } = node.attributes;
 			const tagName = is || callout.tagName || settings.tagName || "aside";
 
 			ctx.replaceNode(node, {
@@ -151,7 +151,7 @@ export default function satteriCalloutDirectives(options = {}) {
 					hName: tagName,
 					hProperties: {
 						...attributes,
-						className: ["callout", `callout-${calloutType}`, attributes?.class]
+						className: ["callout", `callout-${calloutType}`, clazz]
 					}
 				},
 				children: generate({
